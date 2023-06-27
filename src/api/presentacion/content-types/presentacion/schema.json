@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "presentacions",
+  "info": {
+    "singularName": "presentacion",
+    "pluralName": "presentacions",
+    "displayName": "presentacion",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "descripcion": {
+      "type": "richtext"
+    }
+  }
+}
