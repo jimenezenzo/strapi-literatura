@@ -34,6 +34,15 @@
       "type": "uid",
       "targetField": "titulo",
       "required": true
+    },
+    "referencias": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::referencia.referencia",
+      "mappedBy": "post"
+    },
+    "padlet": {
+      "type": "text"
     }
   }
 }
